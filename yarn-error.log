@@ -1,0 +1,43 @@
+Arguments: 
+  /Users/adam.aho/.nvm/versions/node/v12.19.0/bin/node /Users/adam.aho/.nvm/versions/node/v12.19.0/bin/yarn add -D vite react react-dom typescript @vanilla-extract/vite-pluigin
+
+PATH: 
+  /Users/adam.aho/.nvm/versions/node/v12.19.0/bin:/Users/adam.aho/bin:/usr/local/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/adam.aho/.cargo/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.19.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@vanilla-extract%2fvite-pluigin: Not found
+      at Request.params.callback [as _callback] (/Users/adam.aho/.nvm/versions/node/v12.19.0/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/Users/adam.aho/.nvm/versions/node/v12.19.0/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:314:20)
+      at Request.<anonymous> (/Users/adam.aho/.nvm/versions/node/v12.19.0/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:314:20)
+      at IncomingMessage.<anonymous> (/Users/adam.aho/.nvm/versions/node/v12.19.0/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:420:28)
+      at IncomingMessage.emit (events.js:326:22)
+      at endReadableNT (_stream_readable.js:1223:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "vanilla-extract-rebuild-error",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:rtkaaho/vanilla-extract-rebuild-error.git",
+    "author": "adamaho <adam.aho@hey.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

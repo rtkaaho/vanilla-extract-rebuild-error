@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "moduleResolution": "node",
+    "module": "es2020",
+    "baseUrl": ".",
+    "jsx": "react",
+    "declaration": true,
+    "declarationDir": "./dist/types",
+    "outDir": "./dist",
+    "sourceMap": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "noImplicitAny": true,
+    "lib": ["esnext", "dom"]
+  },
+  "include": ["src/**/*", "types"],
+  "exclude": ["node_modules", "./dist/types"],
+}
